@@ -1,0 +1,9 @@
+@SchoolManagement_HostAddress = http://localhost:5245
+
+GET {{SchoolManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+### DELETE student by id
+DELETE http://localhost:5245/api/students/1
+
